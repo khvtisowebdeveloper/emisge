@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    background-color: #2e3192;
+    background-image: url(/art-board.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.header {
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+}
+
+.logo {
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    width: 250px;
+    height: 50px;
+}
+
+.title {
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    color: #4d50a2;
+}
+
+.container {
+    margin: 130px 25px 0px 185px;
+    height: 400px;
+    position: absolute;
+    /* background-color: rgb(0, 0, 0); */
+
+}
+
+.auto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f1f3ff;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 110px;
+    height: 50px;
+}
+
+ .username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 200px;
+}
+
+.username__input {
+    width: 350px;
+    height: 60px;
+    border-radius: 23px;
+    border: 2px solid #4d50a2;
+    background-color: transparent;
+    padding: 0 25px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.username__username {
+    position: absolute;
+    color: #a2a4d8
+}
+
+ .secusername {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+}
+
+.secusername__input {
+    width: 350px;
+    height: 62px;
+    border-radius: 23px;
+    border: 2px solid #4d50a2;
+    background-color: transparent;
+    padding: 0 25px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secusername__username {
+    position: absolute;
+    color: #a2a4d8
+}
+
+.buttons__btn {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -40px;
+    background-color: transparent;
+    border: none;
+    z-index: 9999;
+    color: #EEA558;
+}
+.loginbtn{
+    margin-top: 360px;
+    position: absolute;
+    display: flex;
+    justify-content: right ;
+    width: 540px;
+    height: 260px;
+
+}
+.loginbtn-btn {
+    background-color: #5e94fa;
+    border: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    border-radius: 70px;
+}
+@media (max-width: 768px) {
+    body{
+        background-color: #2e3192;
+        background-image: url(/art-board.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    .loginbtn-btn {
+        background-color: #bf0000;
+        border: none;
+        color: white;
+        font-size: larger;
+        cursor: pointer;
+        width: 300px;
+        height: 70px;
+        position: absolute;
+        border-radius: 70px;
+    }
+}
+@media (max-width: 660px) {
+    body{
+        background-color: #2e3192;
+        background-image: url(/art-board.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .loginbtn{
+        margin-top: 360px;
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        width: 501px;
+        height: 260px;
+    }
+    .loginbtn-btn {
+        background-color: #f8b600;
+        border: none;
+        color: white;
+        font-size: larger;
+        cursor: pointer;
+        width: 300px;
+        height: 70px;
+        position: absolute;
+        border-radius: 70px;
+    }
+    .container{
+        margin: 130px 25px 0px 150px;
+        height: 400px;
+        position: absolute;
+    }
+
+}
+@media (max-width: 500px){
+    .container{
+        margin: 130px 25px 0px 56px;
+        height: 400px;
+        position: absolute;
+    }
+    .loginbtn{
+        margin-top: 360px;
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        width: 408px;
+        height: 260px;
+    }
+    .loginbtn-btn {
+        background-color: #2eac00;
+        border: none;
+        color: white;
+        font-size: larger;
+        cursor: pointer;
+        width: 300px;
+        height: 70px;
+        position: absolute;
+        border-radius: 70px;
+    }
+}
+@media (max-width: 375px) {
+    .auto{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #f1f3ff;
+        font-size: 18px;
+        position: absolute;
+        margin-left: 73px;
+        height: 50px;
+    }
+    .username__input {
+        width: 241px;
+        height: 60px;
+        border-radius: 23px;
+        border: 2px solid #4d50a2;
+        background-color: transparent;
+        padding: 0 25px;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .secusername__input{
+        width: 241px;
+        height: 62px;
+        border-radius: 23px;
+        border: 2px solid #4d50a2;
+        background-color: transparent;
+        padding: 0 25px;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .loginbtn-btn {
+        background-color: #00e2b1;
+        border: none;
+        color: white;
+        font-size: larger;
+        cursor: pointer;
+        width: 170px;
+        height: 63px;
+        position: absolute;
+        border-radius: 70px;
+    }
+    .loginbtn {
+        margin-top: 360px;
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        width: 295px;
+        height: 260px;
+    }
+}
