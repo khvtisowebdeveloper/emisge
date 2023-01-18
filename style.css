@@ -9,7 +9,7 @@
 
 body {
     background-color: #2e3192;
-    background-image: url(art-board.svg);
+    background-image: url(/art-board.svg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
