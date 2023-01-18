@@ -112,8 +112,6 @@ body {
 
 .buttons__btn {
     position: absolute;
-    margin-top: -10px;
-    margin-left: -40px;
     background-color: transparent;
     border: none;
     z-index: 9999;
